@@ -1,0 +1,36 @@
+.button {
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+  width: 150px;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 8%;
+}
+
+.titlePage {
+  height: 100vh;
+  font-weight: 900;
+  font-size: 3em;
+  margin-top: 19%;
+}
+
+.titlePage .letter,
+#number {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 2.3em;
+  text-decoration: line-through;
+  letter-spacing: 0.2em;
+}
+
+.sliderimg {
+  width: 100vw;
+  height: 600px;
+  object-fit: cover;
+}
